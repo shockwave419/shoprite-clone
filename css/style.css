@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+.nav-bar {
+    height: 56px;
+    width: 100%;
+    background-color: #383838;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: center;
+
+}
+
+.nav-bar p {
+    font-size: 20px;
+    font-weight: 30px;
+    font-style: italic;
+    color: white;
+    display: flex;
+    gap: 20px;
+
+}
+
+.nav-bar i {
+    color: rgb(180, 7, 7);
+}
+
+.nav-bar2 {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-content: center;
+
+}
+
+.nav-bar2 marquee {
+    background-color: white;
+    width: 80%;
+    font-weight: 600;
+    color: #ea212d;
+}
+
+.logo {
+    height: 100px;
+    width: 100%;
+    background-color: #ea212d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.logo img {
+    width: auto;
+    height: 50px;
+}
+
+.nav-bar2 marquee span {
+    color: #383838;
+
+}
+
+.links {
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+    color: white;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+    font-weight: 500;
+}
+
+.links .input {
+    height: 40%;
+    width: 44%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+
+.links .input i {
+    font-size: 20px;
+    color: rgb(180, 177, 177);
+}
+
+.links .input input {
+    height: 100%;
+    width: 89%;
+    border: none;
+    outline: none;
+    border-radius: inherit;
+}
+
+.links .input input::placeholder {
+    font-style: italic;
+    color: rgba(83, 83, 83, 0.397);
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+.main {
+    width: 100%;
+    height: 390px;
+    background-color: black;
+    background-image: url(../img/woman-shopping-vegetables-supermarket\ \(1\).jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-direction: column;
+
+
+}
+
+.inside p {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inside {
+    height: 200px;
+    width: 70%;
+    background-color: #511509bb;
+    align-content: center;
+}
+
+.main button {
+    color: white;
+    background-color: #fc0000;
+    height: 40px;
+    width: 120px;
+    border-radius: 10%;
+    font-weight: 600;
+    border: none;
+}
+
+.pic {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.pic div {
+    height: 250px;
+    width: 600px;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.whiskey {
+    background-image: url(../img/15408R-Whiskey-Header-1020x315-1.jpg);
+}
+
+.toy {
+    background-image: url(../img/toys.jpg);
+}
+
+.stuff {
+    height: 950px;
+    width: 1200px;
+    margin: 40px auto;
+
+}
+
+
+.stuffhead {
+    display: flex;
+    justify-content: space-between;
+    height: 5%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stuffhead p {
+    font-size: 25px;
+    font-weight: 350px;
+    color: black
+}
+
+.stuffhead button {
+    height: 25px;
+    width: 100px;
+    border-radius: 8px;
+    color: #8a2264;
+    font-size: 200;
+    font-weight: 200;
+    border: none;
+    background-color: #f1e3ec;
+}
+
+.stuffbody {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 70px;
+}
+
+.grape {
+    width: 183px;
+    height: 223px;
+    border-radius: 3%;
+}
+
+.grape img {
+    width: 100%;
+    height: 80%;
+    border-radius: inherit;
+
+}
+
+.grape p {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 1px;
+
+}
+
+.explore {
+    height: 1300px;
+    width: 100%;
+    background-color:#f8f8f8;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.shoprite {
+    height: 6%;
+    width: 100%;
+    align-content: flex-end;
+}
+
+.shoprite p {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.snr{
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+.jr {
+    height: 548px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.jr img {
+    height:50% ;
+    width: 100;
+    border-radius: 20px;
+
+
+}
+
+
+.jr .textbox{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.jr .textbox h2{
+    
+    color: #e02b20;
+}
+
+.jr .textbox p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.jr button{
+    height: 40px;
+    width: 120px;
+    color:white;
+    background-color:#e02b20;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.under{
+    height:1000px;
+    width: 100%;
+    margin: auto;
+    background-color: aqua;
+} 
+.none{
+    height: 200px;
+    width: 100%;
+    background-color: #383838;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.long{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.good{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.good button{
+    height: 60px;
+    width: 180px;
+
+}
+.quick{
+    width: 90%;
+    height:  65%;
+    margin: auto;
+    background-color: #8a2264;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+.speed{
+    width: 20%;
+    height:15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 250px;
+
+     
+}
+.speed .textbox {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 200px;
+}
+.food{
+    height: 65%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.terms{
+    height:35%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 235px;
+}
+.contact{
+    height: 45%;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 210px;
+
+}
+.final{
+    height: 10%;
+    width: 100%;
+    background-color: #383838;
+    
+}
