@@ -325,7 +325,6 @@ li {
     height:1000px;
     width: 100%;
     margin: auto;
-    background-color: aqua;
 } 
 .none{
     height: 200px;
@@ -360,7 +359,6 @@ li {
     width: 90%;
     height:  65%;
     margin: auto;
-    background-color: #8a2264;
     display: flex;
     align-items: center;
     gap: 100px;
@@ -412,6 +410,6 @@ li {
 .final{
     height: 10%;
     width: 100%;
-    background-color: #383838;
+    
     
 }
